@@ -14,39 +14,43 @@ timezone: Asia/Kuala_Lumpur
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: WhyMir?
+title: WhyMir # the main title
 
-tagline: I just create this
+tagline: All CTF writeup  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A blog about CTF writeups with a focus on forensics, pwn and hardware/IoT.
-
+  A website for all CTF writeup and learning.
 # Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://whymir.github.io"
 
 github:
-  username: whymir # change to your GitHub username
+  username: whymir # change to your github username
 
 twitter:
-  username: "" # change to your Twitter username
+  username: ## change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: whymir
+  name: whmir
   email: whymir13@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/# # change to your Twitter homepage
-    - https://github.com/whymir # change to your GitHub homepage
+    - https://twitter.com/# # change to your twitter homepage
+    - https://github.com/# # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/yamiir
+    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
-google_site_verification:
-
+webmaster_verifications:
+  google: # fill in your Google verification code
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -57,8 +61,16 @@ analytics:
     id: # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
 
-# Page views settings
+# Pageviews settings
 pageviews:
   provider: # now only supports 'goatcounter'
 
@@ -70,8 +82,8 @@ pageviews:
 #
 # Available options:
 #
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
 #
 theme_mode: # [light | dark]
 
@@ -80,10 +92,10 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn::
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/10hats.png"
+avatar: /assets/10hats.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -93,7 +105,7 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
+  # Global switch for the post comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
@@ -123,9 +135,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: true # the option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: true # the option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
@@ -155,9 +167,6 @@ collections:
   tabs:
     output: true
     sort_by: order
-  app:
-    output: true
-    permalink: /:name
 
 defaults:
   - scope:
@@ -180,6 +189,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
 
 sass:
   style: compressed
