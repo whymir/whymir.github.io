@@ -10,4 +10,4 @@ Some of friends blog.
 1. [shen](https://chuajianshen.github.io/)
 2. [Firdaus](https://vicevirus.github.io/)
 3. [Naavin](https://b1te.my/)
-4. [Hojen](H0j3n.github.io)
+4. [Hojen](https://H0j3n.github.io)
