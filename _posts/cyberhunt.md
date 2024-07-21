@@ -1,3 +1,9 @@
+---
+title: The Amazing CyberHunt 2024 - Writeups
+categories: [ctf]
+tags: [forensics]
+---
+
 # The Amazing CyberHunt Writeup
 
 This write-up documents our journey through The Amazing Cyber Hunt 2024 as team **RE:UN10N Jr**, comprising myself (whymir), Sara (ssti), and Firdaus (vicevirus). We tackled various challenges with determination and teamwork.
