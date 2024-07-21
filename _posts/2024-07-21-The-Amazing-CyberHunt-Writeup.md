@@ -10,8 +10,6 @@ render_with_liquid: false
 
 This write-up documents our journey through The Amazing Cyber Hunt 2024 as team **RE:UN10N Jr**, comprising myself (whymir), Sara (ssi51), and Firdaus (vicevirus). We tackled various challenges with determination and teamwork.
 
-I want to extend a heartfelt thanks to Mr. Ashraff for believing in me and providing us with the opportunity to represent our team in this competition. His support and encouragement were instrumental in carrying forward the **RE:UN10N Jr** name throughout the event.
-
 ## Files
 
 All challenge are given. Refer to this [link](https://pixeldrain.com/u/Cy7ZxjJa).
