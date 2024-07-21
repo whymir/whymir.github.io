@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/dfa9ef13-b72a-4637-9bdd-9f63bb6af0b1)---
 title: The Amazing CyberHunt Writeup
 author: whymir
 date: 2024-07-21 00:00:00
@@ -8,7 +8,7 @@ render_with_liquid: false
 
 # The Amazing CyberHunt Writeup
 
-This write-up documents our journey through The Amazing Cyber Hunt 2024 as team **RE:UN10N Jr**, comprising myself (whymir), Sara (ssti), and Firdaus (vicevirus). We tackled various challenges with determination and teamwork.
+This write-up documents our journey through The Amazing Cyber Hunt 2024 as team **RE:UN10N Jr**, comprising myself (whymir), Sara (ssi51), and Firdaus (vicevirus). We tackled various challenges with determination and teamwork.
 
 I want to extend a heartfelt thanks to Mr. Asyraff for believing in me and providing us with the opportunity to represent our team in this competition. His support and encouragement were instrumental in carrying forward the **RE:UN10N Jr** name throughout the event.
 
