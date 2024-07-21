@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/dfa9ef13-b72a-4637-9bdd-9f63bb6af0b1)---
+---
 title: The Amazing CyberHunt Writeup
 author: whymir
 date: 2024-07-21 00:00:00
